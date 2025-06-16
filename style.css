@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root{
+--cor1: #121212;
+--cor2: #1E1E1E;
+--cor3: #CFCFCF;
+--cor4: #FFFFFF;
+--cor5: #4169E1;
+--cor6: #0097b2;
+
+--fonte-titulo:
+<style> @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    body{
+        background-color:black;
+        color:var(--cor3);
+        
+        }
+
+    header > h1 {
+        margin-top: -12;
+        margin-bottom: 14px;
+        font-size: 30px;
+    }
+    header {
+        padding: 10px;
+        border-radius: 15px;
+       
+        background-color:var(--cor1);
+        font-family:var(--fonte-titulo);
+        color: var(--cor3);
+        text-align: center;
+        min-width: 320px;
+        max-width: 825px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav > a {
+        background-color: #0097b2;
+        color: var(--cor4);
+        border-radius: 4px;
+        padding: 2px;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+        text-decoration: none;
+    }
+
+    nav > a:hover{
+        background-color: var(--cor5);
+    }
+
+
+
+    main > h2 {
+        border-radius: 5px;
+        background-color: var(--cor6);
+        color:var(--cor3);
+        margin: 5px;
+    }        
+
+    main > p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    main{
+        background-color: var(--cor1);
+        font-family:'Times New Roman', Times, serif;
+        padding: 20px;
+        border-radius: 10px;
+
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: justify;
+        text-align: center;
+    }
+
+
+    footer > h2 {
+        margin: 5px;
+        background-color: var(--cor6);
+        color: var(--cor3);
+        border-radius: 5px;
+        
+    }
+    footer > a{
+        font-size: 20px;
+        
+        color: var(--cor3);
+        margin: 10px 10px;
+    }
+    footer > a:hover{
+        background-color:var(--cor6);
+        
+
+}
+    footer{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 10px;
+        padding-bottom: 15px;
+        border-radius: 15px;
+        min-width: 320px;
+        max-width: 825px;
+        margin: auto;
+        background-color: #121212;
+        text-align: center;
+       
+    }
